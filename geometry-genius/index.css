@@ -54,6 +54,30 @@
 .cards-container {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
   gap: 12px;
+}
+.cards-container .card {
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 8px;
+  height: 354px;
+  width: 315px;
+  border-radius: 8px;
+}
+.cards-container .card .card-img-top {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 0px;
+}
+
+.calculate-area {
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 8px;
+  height: 354px;
+  width: 315px;
+
+  border-radius: 8px;
+  text-align: center;
 }
