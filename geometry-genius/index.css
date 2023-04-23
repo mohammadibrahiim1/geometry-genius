@@ -37,6 +37,23 @@
   height: 130px;
 }
 
-.header-text{
-    height: 50%;
+.header-text {
+  height: 50%;
+}
+
+.cards-container .text-decoration-underline {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: rgba(17, 17, 17, 0.8);
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 12px;
 }
